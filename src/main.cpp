@@ -123,5 +123,10 @@ int main (int argc, char* argv[])
 
     close(sockfd);
 
+    if (buffer != nullptr)
+    {
+        delete[] buffer;
+    }
+
     return 0;
 }
