@@ -8,6 +8,5 @@ cd interview_test
 mkdir build && cd build
 cmake ..
 make
-./test xxxxxxxxx
+./test
 ```
-> Note: Use a domain name without port to replace `xxxxxxxxx` 
